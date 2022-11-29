@@ -6,4 +6,11 @@ package nl.novi.jp.methods.beginner;
  * Zorg ervoor dat de methode wordt aangeroepen en dat de tekst uitgeprint wordt.
  */
 public class BeginnerFive {
+  public static void start() {
+    System.out.println("Power on");
+  }
+
+  public static void main(String[] args) {
+    start();
+  }
 }
