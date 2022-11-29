@@ -10,4 +10,11 @@ package nl.novi.jp.methods.junior;
  */
 
 public class JuniorFive {
+  public static String upper(String text) {
+    return text.toUpperCase();
+  }
+
+  public static void main(String[] args) {
+    System.out.println(upper("hello"));
+  }
 }

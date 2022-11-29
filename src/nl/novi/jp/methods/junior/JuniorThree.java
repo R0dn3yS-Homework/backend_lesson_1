@@ -8,7 +8,12 @@ package nl.novi.jp.methods.junior;
 
 public class JuniorThree {
     public static void main(String[] args) {
+        negativeNumberChecker(0);
+        negativeNumberChecker(1);
+        negativeNumberChecker(-100);
+        negativeNumberChecker(100);
 
+        // Checkt of getal positief of negatief is
     }
 
     public static void negativeNumberChecker(int number) {
